@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gina Kutz</title>
+    <!-- Add any necessary stylesheets or CSS frameworks -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- Header content displaying developer's name -->
+        <h1>Kutz Time</h1>
+        <!-- Navigation with titles corresponding to different sections -->
+        <nav>
+            <ul>
+                <li class="active"><a href="#about-me">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section for content -->
+        <section id="about-me">
+            <!-- Content for About Me section -->
+            <h2>About Me</h2>
+            <!-- Recent photo or avatar of the developer -->
+            <img src="avatar.jpg" alt="Developer's Avatar">
+            <!-- Short bio about the developer -->
+            <p>Short bio about the developer...</p>
+        </section>
+
+        <section id="portfolio">
+            <!-- Content for Portfolio section -->
+            <h2>Portfolio</h2>
+            <!-- Titled images of six applications with links to deployed apps and GitHub repos -->
+            <div class="portfolio-item">
+                <img src="app1.jpg" alt="App 1">
+                <div class="description">
+                    <h3>App Title 1</h3>
+                    <p>Description of the app</p>
+                    <a href="#">View App</a> | <a href="#">GitHub Repo</a>
+                </div>
+            </div>
+            <!-- Repeat for other portfolio items -->
+        </section>
+
+        <section id="contact">
+            <!-- Content for Contact section -->
+            <h2>Contact</h2>
+            <!-- Contact form with fields for name, email, and message -->
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <!-- Email field with validation -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <!-- Message field -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="resume">
+            <!-- Content for Resume section -->
+            <h2>Resume</h2>
+            <!-- Link to downloadable resume -->
+            <a href="resume.pdf" download>Download Resume</a>
+            <!-- List of developer's proficiencies -->
+            <ul>
+                <li>Proficiency 1</li>
+                <li>Proficiency 2</li>
+                <!-- Add more proficiencies as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+        <p>Follow me on:</p>
+        <!-- Links to GitHub, LinkedIn, and third platform -->
+        <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Third Platform</a></li>
+        </ul>
+    </footer>
+
+    <!-- Add any necessary scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
